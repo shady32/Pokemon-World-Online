@@ -6,9 +6,7 @@ var MapLayer = cc.Layer.extend({
 		this._super();
 		var size = cc.director.getWinSize();
 		this.map = cc.TMXTiledMap.create(_mapsource);
-		this.map.setAnchorPoint(0, 0);
-		this.map.setPosition(0,0);
-		this.map.setScale(size.height / this.map.getContentSize().height);
+
 		this.addChild(this.map, 0);
 		
 		this.sprite=new Sprite(sprite_Man);

@@ -3,10 +3,10 @@ cc.game.onStart = function() {
 		document.body.removeChild(document.getElementById("cocosLoading"));
 
 	var screenSize = cc.view.getFrameSize();
-
+	cc.log(screenSize);
 	cc.loader.resPath = "res";
-
-	cc.view.setDesignResolutionSize(screenSize.width, screenSize.height, cc.ResolutionPolicy.SHOW_ALL);
+	cc.view.resizeWithBrowserSize(true);
+	cc.view.setDesignResolutionSize(800, 600, cc.ResolutionPolicy.SHOW_ALL);
 
 	//load resources
 	cc.LoaderScene.preload(g_resources, function() {

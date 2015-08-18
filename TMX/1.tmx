@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="1" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="E:/Pokemon World Online/Skins/Default/Tiles/1.png" trans="000000" width="256" height="1024"/>
+ </tileset>
+ <layer name="块层 1" width="30" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzaEBADAMw7B22/83L1cECRgYaWfmpJte2tK3HC6Xy+VyuVwul8vlcrlcLpfL5XIb/wFNUQ5D
+  </data>
+ </layer>
+</map>
